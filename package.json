@@ -1,0 +1,38 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "This is Typescript Start",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo jest",
+    "build": "npm run test && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shufankang/ts-starter.git"
+  },
+  "keywords": [
+    "typescript",
+    "starter"
+  ],
+  "author": "Shufan Kang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shufankang/ts-starter/issues"
+  },
+  "homepage": "https://github.com/shufankang/ts-starter#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "fork-ts-checker-webpack-plugin": "^1.0.1",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.1",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.4.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.23"
+  }
+}
