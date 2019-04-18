@@ -1,5 +1,9 @@
 This is a Typescript starter packge.
 
+```
+npm run build
+```
+
 Tools this packges uses:
 
 * Typescript
