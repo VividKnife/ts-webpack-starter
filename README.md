@@ -1,8 +1,10 @@
 This is a Typescript starter packge.
 
+``` bash
+npm install && npm run build
 ```
-npm run build
-```
+
+it will build a single **index.js** under *build* folder
 
 Tools this packges uses:
 
